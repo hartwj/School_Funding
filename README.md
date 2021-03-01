@@ -1,1 +1,10 @@
 # School_Funding
+
+This project will examine 21 of America’s largest school districts – ranging in size from New York City to Cleveland. The goal is to determine which school characteristics matter in relation to standardized test scores. Performance will be measured through a school district’s average 4th and 8th grade math and reading scores in 2015. A variety of predictors will be examined through an Ordinary Least Squares (OLS) Regression, such as: funding, racial backgrounds, student-teacher ratio, percentage of students on reduced-price lunches, etc. The goal is to determine which district-level characteristics are important for standardized test scores and recommend any possible policy interventions, if applicable. 
+
+## About the Data
+The dataset contains two csv files, each from 2015 – the first from the Elementary/ Secondary Information System and the second from the National Assessment of Educational Progress. The first contains district-level financial information, i.e. local/state/federal revenues and expenditures for all schools district in America – about 18,680 school districts. The second contains assessment scores for the 21 school districts in America’s largest cities. 
+
+## Findings
+
+The goal of this report was to examine the relationship between standardized test performance and district-level characteristics. For funding, one would expect increases in total, state, and local revenues to improve standardized test scores, however this report points to the contrary in our largest cities. While state and local revenues are not statistically significant, increases in federal revenue actually show decreases in standardized average test scores in math and reading amongst 4th and 8th graders. Aspects like a district’s percent of students in limited-English programs, percent of students with an Individualized Educational Program (IEP), and the student-teacher ratio all failed to convey meaningful significance in relationship to academic scores. However, the percentage of a district’s students eligible for free or discounted lunches did show a statistically significant negative relationship with average test scores. 
